@@ -1,7 +1,4 @@
-
-function Register() {
-    return(
-        <h1>Minhas Notas</h1>
-    )
-    
+function Notes() {
+  return <h1>Minhas Notas</h1>;
 }
+export default Notes;
