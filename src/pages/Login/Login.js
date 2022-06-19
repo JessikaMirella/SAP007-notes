@@ -12,7 +12,7 @@ function Login() {
     navigate("/Register");
   };
 
-  const { userGoogle, singned } = useContext(AuthGoogleContext);
+  const { userGoogle, singned, user } = useContext(AuthGoogleContext);
 
   async function loginGoogle() {
     return await userGoogle;

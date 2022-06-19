@@ -1,6 +1,7 @@
 import { createContext, useEffect, useState } from "react";
 import { GoogleAuthProvider, getAuth, signInWithPopup } from "firebase/auth";
 import { app } from "./firebaseConfig";
+import { Navigate } from "react-router-dom";
 
 const provider = new GoogleAuthProvider();
 
@@ -37,8 +38,16 @@ export const AuthGoogleProvider = ({ children }) => {
         const credential = GoogleAuthProvider.credentialFromError(error);
       });
   };
+  function singOut() {
+    sessionStorage.clear();
+    setUser(null);
+    return <Navigate to ="./Login"/>
+    
+  }
+
+
   return (
-    <AuthGoogleContext.Provider value={{ userGoogle, singned: !!user }}>
+    <AuthGoogleContext.Provider value={{ userGoogle, singned: !!user, user, singOut }}>
       {children}
     </AuthGoogleContext.Provider>
   );
