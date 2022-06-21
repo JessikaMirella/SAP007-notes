@@ -17,7 +17,7 @@ export const AuthGoogleProvider = ({ children }) => {
       if (sessionToken && sessionUser) {
         setUser(sessionUser);
       }
-      loadStorageAuth()
+      loadStorageAuth();
     };
   }, []);
 
@@ -41,13 +41,13 @@ export const AuthGoogleProvider = ({ children }) => {
   function singOut() {
     sessionStorage.clear();
     setUser(null);
-    return <Navigate to ="./Login"/>
-    
+    return <Navigate to="./Login" />;
   }
 
-
   return (
-    <AuthGoogleContext.Provider value={{ userGoogle, singned: !!user, user, singOut }}>
+    <AuthGoogleContext.Provider
+      value={{ userGoogle, singned: !!user, user, singOut }}
+    >
       {children}
     </AuthGoogleContext.Provider>
   );

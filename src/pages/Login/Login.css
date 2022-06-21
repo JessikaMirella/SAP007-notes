@@ -1,0 +1,77 @@
+body {
+  background-color: black;
+}
+
+.header {
+  display: flex;
+}
+
+.logo {
+  width: 650px;
+  height: auto;
+  margin-left: 30%;
+}
+
+.box {
+  width: 480px;
+  height: 480px;
+  display: flex;
+  background-color: #7cf2f1;
+  border-radius: 10px;
+  margin-left: 35%;
+  margin-bottom: 50%;
+  justify-content:baseline;
+  
+}
+
+.googleImage {
+  width: 40px;
+  height: auto;
+}
+
+.google {
+  border-radius: 20px;
+  margin-left: 113%;
+  margin-top: 10%;
+}
+
+.email,
+.password {
+  width: 160%;
+  height: 8%;
+  display: block;
+  margin-top: 60px;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  margin-left: 53%;
+}
+
+.buttonRegister {
+  margin-bottom: 100%;
+  margin-left: 97%;
+  padding: auto;
+  height: 30px;
+  width: 120px;
+  border-radius: 10px;
+}
+
+.enter {
+  margin-left: 93% ;
+  margin-top: 20%;
+  padding: auto;
+  height: 30px;
+  width: 120px;
+  border-radius: 10px;
+}
+
+
+
+.parGoogle{
+  margin-left: 123%;
+
+}
+
+
+.p {
+  margin-left: 123%;
+}
