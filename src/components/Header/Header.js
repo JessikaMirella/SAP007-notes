@@ -1,8 +1,10 @@
-function Header() {
+
+
+function Header({children}) {
   return (
     <div>
       <header>
-          <h1>Notas</h1>
+        {children}
       </header>
     </div>
   );

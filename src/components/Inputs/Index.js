@@ -1,4 +1,4 @@
-import "./styles.modules.css";
+import "./style.css";
 
 function Input({
     className, type, placeholder, value, name}){
