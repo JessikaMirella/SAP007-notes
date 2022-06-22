@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.46d33c9e.css",
-    "main.js": "/react-gh-pages/static/js/main.e4387bc0.js",
-    "static/media/logo.png": "/react-gh-pages/static/media/logo.c441ad0c0ad1bbe0d465.png",
-    "static/media/logout.png": "/react-gh-pages/static/media/logout.cfc428c208d186b133c1.png",
-    "static/media/googleImg.png": "/react-gh-pages/static/media/googleImg.9a61aa1f316e148a7201.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.46d33c9e.css.map": "/react-gh-pages/static/css/main.46d33c9e.css.map",
-    "main.e4387bc0.js.map": "/react-gh-pages/static/js/main.e4387bc0.js.map"
+    "main.css": "/SAP007-notes/static/css/main.46d33c9e.css",
+    "main.js": "/SAP007-notes/static/js/main.d3e59662.js",
+    "static/media/logo.png": "/SAP007-notes/static/media/logo.c441ad0c0ad1bbe0d465.png",
+    "static/media/logout.png": "/SAP007-notes/static/media/logout.cfc428c208d186b133c1.png",
+    "static/media/googleImg.png": "/SAP007-notes/static/media/googleImg.9a61aa1f316e148a7201.png",
+    "index.html": "/SAP007-notes/index.html",
+    "main.46d33c9e.css.map": "/SAP007-notes/static/css/main.46d33c9e.css.map",
+    "main.d3e59662.js.map": "/SAP007-notes/static/js/main.d3e59662.js.map"
   },
   "entrypoints": [
     "static/css/main.46d33c9e.css",
-    "static/js/main.e4387bc0.js"
+    "static/js/main.d3e59662.js"
   ]
 }
