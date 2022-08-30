@@ -1,10 +1,10 @@
-import "./style.css";
+import styles from"./style.module.css";
 
 function Input({
-    className, type, placeholder, value, name}){
+    customClass, type, placeholder, value, name}){
     return (
       <input
-        className={className}
+        className={styles[customClass]}
         type={type}
         placeholder={placeholder}
         value={value}

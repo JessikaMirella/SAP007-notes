@@ -1,6 +1,7 @@
 import Input from "../../components/Inputs/Index";
 import Button from "../../components/Button/Index";
 import Header from "../../components/Header/Header";
+import Form from "../../components/Form";
 import logo from "../../images/logo.png";
 import "./Register.css";
 
@@ -11,25 +12,25 @@ function Register() {
         <img className="logo" src={logo} />
       </Header>
       <div className="container">
-        <form>
-          <Input className="name" type="text" placeholder="nome" />
-          <Input className="emailRegister" type="email" placeholder="email" />
+      <Form customClass="formLogin">
+          <Input customClass= "inputLogin" type="text" placeholder="nome" />
+          <Input customClass= "inputLogin" type="email" placeholder="email" />
           <Input
-            className="passwordRegister"
+            customClass= "inputLogin"
             type="password"
             placeholder="senha"
           />
           <Input
-            className="passwordConfirm"
+            customClass= "inputLogin"
             type="password"
             placeholder="Confirme a senha"
           />
           <Button
-            className="confirmRegister"
+            customClass="enterButton"
             type="submit"
             children="Cadastrar"
           />
-        </form>
+        </Form>
       </div>
     </div>
   );

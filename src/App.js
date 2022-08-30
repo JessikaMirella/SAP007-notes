@@ -1,6 +1,6 @@
-import Input from "./components/Inputs/Index";
+/*import Input from "./components/Inputs/Index";
 import Button from "./components/Button/Index";
-/*
+
 function App() {
   return (
     <div className="App">

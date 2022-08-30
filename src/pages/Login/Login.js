@@ -1,12 +1,14 @@
 import Header from "../../components/Header/Header";
 import Input from "../../components/Inputs/Index";
 import Button from "../../components/Button/Index";
+import Form from "../../components/Form";
 import googleImg from "../../images/googleImg.png";
 import logo from "../../images/logo.png";
 import "./Login.css";
 import { useContext } from "react";
 import { Navigate, useNavigate } from "react-router-dom";
 import { AuthGoogleContext } from "../../lib/authentication";
+import Footer from "../../components/Footer";
 
 function Login() {
   const navigate = useNavigate();
@@ -22,31 +24,28 @@ function Login() {
   }
   if (!singned) {
     return (
-      <div className="flex">
+      <>
         <Header className="header">
           <img className="logo" src={logo} />
         </Header>
-        <div className="box">
-          <form>
-            <Input className="email" type="email" placeholder="email" />
-            <Input className="password" type="password" placeholder="senha" />
-            <Button children="Entrar" className="enter" type="submit" />
+        <Form customClass="formLogin">
+            <Input customClass="inputLogin" type="email" placeholder="email" />
+            <Input customClass="inputLogin" type="password" placeholder="senha" />
+            <Button children="Entrar" customClass="enterButton" type="submit" />
             <Button
               children={<img className="googleImage" src={googleImg} />}
-              className="google"
+              customClass="google"
               type="button"
               onClick={userGoogle}
             />
-            <p className="p">Ou</p>
             <Button
               children="Cadastre-se"
               onClick={handleRegister}
-              className="buttonRegister"
+              customClass="registerButton"
               type="button"
             />
-          </form>
-        </div>
-      </div>
+          </Form>
+        </>
     );
   } else {
     return <Navigate to={"/Notes"} />;

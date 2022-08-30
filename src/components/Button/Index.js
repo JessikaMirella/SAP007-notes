@@ -1,11 +1,11 @@
-import "./style.css"
+import style from"./style.module.css"
 
 function Button({
-    className, type, onClick, children
+    customClass, type, onClick,children
 }){
     return(
         <button 
-        className= {className}
+        className= {style[customClass]}
         type={type}
         onClick={onClick}
         > {children}
