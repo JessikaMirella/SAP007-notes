@@ -1,67 +1,88 @@
 body {
   background-color: black;
+  overflow: hidden;
 }
+
+
+.googleImage {
+  width: 25px;
+  height: auto;
+}
+
+.google {
+  border:none;
+  background-color: #0000;
+}
+
+.logo {
+  width: 500px;
+  height: auto;
+  margin-left: 25%;
+}
+/*
 
 .header {
   display: flex;
 }
 
 .logo {
-  width: 650px;
+  width: 600px;
   height: auto;
-  margin-left: 30%;
+  margin-left: 20%;
 }
 
 .box {
-  width: 480px;
-  height: 480px;
+  
   display: flex;
-  background-color: #7cf2f1;
-  border-radius: 10px;
-  margin-left: 35%;
+  background-color: #0000;
+  border-radius: 5px;
+  margin-left: 40%;
   margin-bottom: 50%;
   justify-content:baseline;
   
 }
 
 .googleImage {
-  width: 40px;
+  width: 25px;
   height: auto;
 }
 
 .google {
-  border-radius: 20px;
-  margin-left: 113%;
+  border:none;
+  margin-left: 85%;
   margin-top: 10%;
+  background-color: #0000;
 }
 
 .email,
 .password {
-  width: 160%;
+  width: 120%;
   height: 8%;
   display: block;
-  margin-top: 60px;
+  margin-top: 30px;
   margin-bottom: 5%;
-  border-radius: 10px;
-  margin-left: 53%;
+  border-radius: 3px;
+  margin-left: 40%;
+  background-color: #7CF2F1;
 }
 
 .buttonRegister {
   margin-bottom: 100%;
-  margin-left: 97%;
+  margin-left: 70%;
   padding: auto;
   height: 30px;
-  width: 120px;
-  border-radius: 10px;
+  width: 100px;
+  border-radius: 5px;
 }
 
 .enter {
-  margin-left: 93% ;
-  margin-top: 20%;
+  margin-left: 60% ;
+  margin-top: 10%;
   padding: auto;
-  height: 30px;
+  height: 25px;
   width: 120px;
-  border-radius: 10px;
+  border-radius: 5px;
+  background-color: #F2E205;
 }
 
 
@@ -73,5 +94,6 @@ body {
 
 
 .p {
-  margin-left: 123%;
+  margin-left: 90%;
 }
+*/

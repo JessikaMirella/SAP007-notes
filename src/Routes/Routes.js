@@ -4,6 +4,7 @@ import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 import Notes from "../pages/Notes/Notes";
 
+
 const Routes = () => {
   return (
     <BrowserRouter>
