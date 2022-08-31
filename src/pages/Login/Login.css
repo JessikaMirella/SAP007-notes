@@ -3,7 +3,6 @@ body {
   overflow: hidden;
 }
 
-
 .googleImage {
   width: 25px;
   height: auto;
@@ -15,85 +14,8 @@ body {
 }
 
 .logo {
-  width: 500px;
+  width: 450px;
   height: auto;
-  margin-left: 25%;
-}
-/*
-
-.header {
-  display: flex;
+  margin-left: 27%;
 }
 
-.logo {
-  width: 600px;
-  height: auto;
-  margin-left: 20%;
-}
-
-.box {
-  
-  display: flex;
-  background-color: #0000;
-  border-radius: 5px;
-  margin-left: 40%;
-  margin-bottom: 50%;
-  justify-content:baseline;
-  
-}
-
-.googleImage {
-  width: 25px;
-  height: auto;
-}
-
-.google {
-  border:none;
-  margin-left: 85%;
-  margin-top: 10%;
-  background-color: #0000;
-}
-
-.email,
-.password {
-  width: 120%;
-  height: 8%;
-  display: block;
-  margin-top: 30px;
-  margin-bottom: 5%;
-  border-radius: 3px;
-  margin-left: 40%;
-  background-color: #7CF2F1;
-}
-
-.buttonRegister {
-  margin-bottom: 100%;
-  margin-left: 70%;
-  padding: auto;
-  height: 30px;
-  width: 100px;
-  border-radius: 5px;
-}
-
-.enter {
-  margin-left: 60% ;
-  margin-top: 10%;
-  padding: auto;
-  height: 25px;
-  width: 120px;
-  border-radius: 5px;
-  background-color: #F2E205;
-}
-
-
-
-.parGoogle{
-  margin-left: 123%;
-
-}
-
-
-.p {
-  margin-left: 90%;
-}
-*/

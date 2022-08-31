@@ -1,8 +1,7 @@
 .footer {
-    max-width: 1024px;
+    max-width: 800px;
     width: 100%;
-    padding: 20px;
-    position:relative;
+    position: fixed;
     bottom: 0;
     background: black;
   }
