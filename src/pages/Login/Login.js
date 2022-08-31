@@ -44,6 +44,7 @@ function Login() {
               customClass="registerButton"
               type="button"
             />
+            <Footer/>
           </Form>
         </>
     );
